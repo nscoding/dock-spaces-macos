@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		13F695552FB5765B00D3A4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F6953D2FB5765B00D3A4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F695442FB5765B00D3A4DA;
+			remoteInfo = "Dock Spaces";
+		};
+		13F6955F2FB5765B00D3A4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F6953D2FB5765B00D3A4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F695442FB5765B00D3A4DA;
+			remoteInfo = "Dock Spaces";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13F695452FB5765B00D3A4DA /* Dock Spaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dock Spaces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F695542FB5765B00D3A4DA /* Dock SpacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dock SpacesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F6955E2FB5765B00D3A4DA /* Dock SpacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dock SpacesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		13F695472FB5765B00D3A4DA /* Dock Spaces */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Dock Spaces";
+			sourceTree = "<group>";
+		};
+		13F695572FB5765B00D3A4DA /* Dock SpacesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Dock SpacesTests";
+			sourceTree = "<group>";
+		};
+		13F695612FB5765B00D3A4DA /* Dock SpacesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Dock SpacesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13F695422FB5765B00D3A4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F695512FB5765B00D3A4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F6955B2FB5765B00D3A4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F6953C2FB5765B00D3A4DA = {
+			isa = PBXGroup;
+			children = (
+				13F695472FB5765B00D3A4DA /* Dock Spaces */,
+				13F695572FB5765B00D3A4DA /* Dock SpacesTests */,
+				13F695612FB5765B00D3A4DA /* Dock SpacesUITests */,
+				13F695462FB5765B00D3A4DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13F695462FB5765B00D3A4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13F695452FB5765B00D3A4DA /* Dock Spaces.app */,
+				13F695542FB5765B00D3A4DA /* Dock SpacesTests.xctest */,
+				13F6955E2FB5765B00D3A4DA /* Dock SpacesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13F695442FB5765B00D3A4DA /* Dock Spaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F695682FB5765B00D3A4DA /* Build configuration list for PBXNativeTarget "Dock Spaces" */;
+			buildPhases = (
+				13F695412FB5765B00D3A4DA /* Sources */,
+				13F695422FB5765B00D3A4DA /* Frameworks */,
+				13F695432FB5765B00D3A4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				13F695472FB5765B00D3A4DA /* Dock Spaces */,
+			);
+			name = "Dock Spaces";
+			packageProductDependencies = (
+			);
+			productName = "Dock Spaces";
+			productReference = 13F695452FB5765B00D3A4DA /* Dock Spaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13F695532FB5765B00D3A4DA /* Dock SpacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F6956B2FB5765B00D3A4DA /* Build configuration list for PBXNativeTarget "Dock SpacesTests" */;
+			buildPhases = (
+				13F695502FB5765B00D3A4DA /* Sources */,
+				13F695512FB5765B00D3A4DA /* Frameworks */,
+				13F695522FB5765B00D3A4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F695562FB5765B00D3A4DA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				13F695572FB5765B00D3A4DA /* Dock SpacesTests */,
+			);
+			name = "Dock SpacesTests";
+			packageProductDependencies = (
+			);
+			productName = "Dock SpacesTests";
+			productReference = 13F695542FB5765B00D3A4DA /* Dock SpacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13F6955D2FB5765B00D3A4DA /* Dock SpacesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F6956E2FB5765B00D3A4DA /* Build configuration list for PBXNativeTarget "Dock SpacesUITests" */;
+			buildPhases = (
+				13F6955A2FB5765B00D3A4DA /* Sources */,
+				13F6955B2FB5765B00D3A4DA /* Frameworks */,
+				13F6955C2FB5765B00D3A4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F695602FB5765B00D3A4DA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				13F695612FB5765B00D3A4DA /* Dock SpacesUITests */,
+			);
+			name = "Dock SpacesUITests";
+			packageProductDependencies = (
+			);
+			productName = "Dock SpacesUITests";
+			productReference = 13F6955E2FB5765B00D3A4DA /* Dock SpacesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13F6953D2FB5765B00D3A4DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					13F695442FB5765B00D3A4DA = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					13F695532FB5765B00D3A4DA = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 13F695442FB5765B00D3A4DA;
+					};
+					13F6955D2FB5765B00D3A4DA = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 13F695442FB5765B00D3A4DA;
+					};
+				};
+			};
+			buildConfigurationList = 13F695402FB5765B00D3A4DA /* Build configuration list for PBXProject "Dock Spaces" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13F6953C2FB5765B00D3A4DA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 13F695462FB5765B00D3A4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F695442FB5765B00D3A4DA /* Dock Spaces */,
+				13F695532FB5765B00D3A4DA /* Dock SpacesTests */,
+				13F6955D2FB5765B00D3A4DA /* Dock SpacesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13F695432FB5765B00D3A4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F695522FB5765B00D3A4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F6955C2FB5765B00D3A4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13F695412FB5765B00D3A4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F695502FB5765B00D3A4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F6955A2FB5765B00D3A4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13F695562FB5765B00D3A4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F695442FB5765B00D3A4DA /* Dock Spaces */;
+			targetProxy = 13F695552FB5765B00D3A4DA /* PBXContainerItemProxy */;
+		};
+		13F695602FB5765B00D3A4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F695442FB5765B00D3A4DA /* Dock Spaces */;
+			targetProxy = 13F6955F2FB5765B00D3A4DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13F695662FB5765B00D3A4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HPSF3D2F4U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13F695672FB5765B00D3A4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HPSF3D2F4U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		13F695692FB5765B00D3A4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPSF3D2F4U;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nscoding.Dock-Spaces";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		13F6956A2FB5765B00D3A4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPSF3D2F4U;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nscoding.Dock-Spaces";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		13F6956C2FB5765B00D3A4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPSF3D2F4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nscoding.Dock-SpacesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dock Spaces.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dock Spaces";
+			};
+			name = Debug;
+		};
+		13F6956D2FB5765B00D3A4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPSF3D2F4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nscoding.Dock-SpacesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dock Spaces.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dock Spaces";
+			};
+			name = Release;
+		};
+		13F6956F2FB5765B00D3A4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPSF3D2F4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nscoding.Dock-SpacesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Dock Spaces";
+			};
+			name = Debug;
+		};
+		13F695702FB5765B00D3A4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPSF3D2F4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nscoding.Dock-SpacesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Dock Spaces";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F695402FB5765B00D3A4DA /* Build configuration list for PBXProject "Dock Spaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F695662FB5765B00D3A4DA /* Debug */,
+				13F695672FB5765B00D3A4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F695682FB5765B00D3A4DA /* Build configuration list for PBXNativeTarget "Dock Spaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F695692FB5765B00D3A4DA /* Debug */,
+				13F6956A2FB5765B00D3A4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F6956B2FB5765B00D3A4DA /* Build configuration list for PBXNativeTarget "Dock SpacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F6956C2FB5765B00D3A4DA /* Debug */,
+				13F6956D2FB5765B00D3A4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F6956E2FB5765B00D3A4DA /* Build configuration list for PBXNativeTarget "Dock SpacesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F6956F2FB5765B00D3A4DA /* Debug */,
+				13F695702FB5765B00D3A4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13F6953D2FB5765B00D3A4DA /* Project object */;
+}
