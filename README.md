@@ -34,7 +34,7 @@ When you switch profiles, Dock Spaces copies the selected profile plist over the
 
 ## Requirements
 
-- macOS 13 Ventura or later
+- macOS 26 or later
 - Must be run outside the App Store sandbox (direct download / build from source)
 
 ## Building from source
